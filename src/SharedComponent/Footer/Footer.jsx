@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+
 
 const Footer = () => {
     return (
@@ -16,6 +16,7 @@ const Footer = () => {
                 +8801766715566
                 </p>
                 <div className='flex gap-5 text-3xl mb-2'>
+                <a href="https://www.linkedin.com/in/kajol-kona-datta/"><FaLinkedin className='text-white'></FaLinkedin></a>
                     <a href="https://github.com/kkd98"><FaGithub className='text-white'></FaGithub></a>
                     <a href='https://www.facebook.com/profile.php?id=100009853148114&mibextid=LQQJ4d'><FaFacebook className='bg-blue-700 text-white rounded-full border-none'></FaFacebook></a>
                     <a href='https://instagram.com/kajol_kona?igshid=OGQ5ZDc2ODk2ZA=='><FaInstagram className='bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-white rounded-lg'></FaInstagram></a>

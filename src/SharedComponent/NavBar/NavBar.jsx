@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div className='flex gap-6 justify-center bg-black py-3 text-white'>
+        <div className='navbar fixed top-0 left-0  flex gap-6 justify-center bg-black py-3 text-white'>
             <NavLink to="/" style={({ isActive }) => {
             return {
                 color: isActive && "Blue",
