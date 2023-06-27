@@ -1,14 +1,14 @@
 import React from 'react';
 import NavBar from '../../SharedComponent/NavBar/NavBar';
 import Footer from '../../SharedComponent/Footer/Footer';
-import Banner from '../Banner/Banner';
+import Projects from '../../Projects/Projects';
+import AboutMe from '../AboutMe/AboutMe';
 
 const HomePage = () => {
     return (
         <div>
-        <NavBar></NavBar>
-            <Banner></Banner>
-            <Footer></Footer>
+            <AboutMe></AboutMe>
+            <Projects></Projects>
         </div>
     );
 };
