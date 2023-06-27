@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaDownload} from 'react-icons/fa';
+import resume from '../../../public/Kajol_Kona_Datta.pdf'
 
 const Banner = () => {
     const [backgroundGradient, setBackgroundGradient] = useState('bg-gradient-to-r from-pink-500 to-white'); 
@@ -24,6 +25,10 @@ const Banner = () => {
           clearInterval(interval);
         };
       }, []);
+
+      const handleResumeDownload = () => {
+        window.open(resume); 
+      };
     return (
         <div className={`${backgroundGradient} py-16 h-screen`}>
             <div className="flex flex-col items-center mt-12 gap-6 py-16">
@@ -35,7 +40,11 @@ const Banner = () => {
                     <a href='https://www.facebook.com/profile.php?id=100009853148114&mibextid=LQQJ4d'><FaFacebook className='bg-blue-700 text-white rounded-full border-none hover:scale-150 transition-transform duration-300'></FaFacebook></a>
                     <a href='https://instagram.com/kajol_kona?igshid=OGQ5ZDc2ODk2ZA=='><FaInstagram className='bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-white rounded-lg hover:scale-150 transition-transform duration-300'></FaInstagram></a>
                 </div>
-                <button className='btn border-none bg-white text-black'><FaDownload></FaDownload>Resume</button>
+                {/* <button onClick={handleResumeDownload} className='btn border-none bg-white text-black'><FaDownload></FaDownload>Resume</button> */}
+                <a href={resume} download="Kajol_Kona_Datta.pdf" className='btn border-none bg-white text-black'>
+          <FaDownload></FaDownload>
+          Resume
+        </a>
         </div>
         </div>
     );
