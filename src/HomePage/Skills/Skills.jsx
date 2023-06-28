@@ -22,8 +22,8 @@ const Skills = () => {
 
     return (
         <div className='w-full pt-12' id='skills'>
-            <p className='text-4xl font-semibold text-center text-black mt-4 mb-6 lg:mb-16'>---Skills---</p>
-            <div className='grid grid-cols-2 lg:grid-cols-5 gap-3 w-full mb-8'>
+            <p className='text-4xl font-semibold text-center text-black mt-4 mb-6 lg:mb-10'>---Skills---</p>
+            <div className='grid grid-cols-2 lg:grid-cols-5 gap-3 w-full mb-4'>
                 {
                     skills.map(skill => <div key={skill.name} data-aos="zoom-out" className='p-6 shadow-slate-300 shadow-md lg:mb-16 w-52 mx-auto'><img src={skill.image} alt="" className='w-full' /> <p className='text-2xl text-center font-semibold text-black mt-3'>{skill.name}</p></div>)
                 }
