@@ -4,6 +4,7 @@ import Footer from '../../SharedComponent/Footer/Footer';
 import Projects from '../../Projects/Projects';
 import AboutMe from '../AboutMe/AboutMe';
 import Banner from '../Banner/Banner';
+import Skills from '../Skills/Skills';
 
 const HomePage = () => {
     
@@ -11,6 +12,7 @@ const HomePage = () => {
         <div>
         <Banner></Banner>
             <AboutMe></AboutMe>
+            <Skills></Skills>
             <Projects></Projects>
         </div>
     );

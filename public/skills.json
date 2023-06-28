@@ -1,0 +1,42 @@
+[
+    {
+        "image": "https://i.ibb.co/xMBYFSk/react.png",
+        "name": "React.js"
+    },
+    {
+        "image": "https://i.ibb.co/SBZxZFw/javascript.png",
+        "name": "JavaScript"
+    },
+    {
+        "image": "https://i.ibb.co/Js5qmW4/node-js.png",
+        "name": "Node.js"
+    },
+    {
+        "image": "https://i.ibb.co/GCyNXyr/icons8-express-js-480.png",
+        "name": "Express.js"
+    },
+    {
+        "image": "https://i.ibb.co/hgV76p7/icons8-firebase-480.png",
+        "name": "Firebase"
+    },
+    {
+        "image": "https://i.ibb.co/XJyvy5Z/Tailwind-CSS-Logo-svg.png",
+        "name": "Tailwind CSS"
+    },
+    {
+        "image": "https://i.ibb.co/G9pX6Sp/css-alt.png",
+        "name": "CSS3"
+    },
+    {
+        "image": "https://i.ibb.co/tDb29Hk/html5.png",
+        "name": "HTML5"
+    },
+    {
+        "image": "https://i.ibb.co/QFKk6FG/bootstrap.png",
+        "name": "Bootstrap"
+    },
+    {
+        "image": "https://i.ibb.co/vZSGTTv/mongodb.png",
+        "name": "MongoDb"
+    }
+]
