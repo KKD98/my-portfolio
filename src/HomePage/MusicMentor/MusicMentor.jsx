@@ -44,7 +44,7 @@ const MusicMentor = () => {
                     style={imageStyle}
                 />
             </div>
-            <div className='w-[60%] flex flex-col gap-2 justify-center'>
+            <div className='w-[90%] lg:w-[60%] flex flex-col gap-2 justify-center mx-auto'>
                 <p className='text-3xl font-semibold text-black'>Music Mentor</p>
                 <p className='text-2xl text-black'>Music Mentor is a online music school. You can teach or learn music here.</p>
                 <p className='text-xl  text-black'>Features</p>

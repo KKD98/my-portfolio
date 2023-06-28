@@ -1,6 +1,7 @@
 import React from 'react';
 import MusicMentor from '../HomePage/MusicMentor/MusicMentor';
 import DisneyWorld from '../HomePage/DisneyWorld/DisneyWorld';
+import MixedMasala from '../HomePage/MixedMasala/MixedMasala';
 
 const Projects = () => {
     return (
@@ -9,6 +10,8 @@ const Projects = () => {
         <MusicMentor></MusicMentor>
         <div className="divider"></div> 
         <DisneyWorld></DisneyWorld>
+        <div className="divider"></div> 
+        <MixedMasala></MixedMasala>
         </div>
     );
 };
