@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import image from '../../assets/music-mentor-b51dd.web.app_ (3).png';
+import image from '../../assets/music-mentor.png';
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -52,11 +52,11 @@ const MusicMentor = () => {
                 <p className='text-md  text-black'>✦ Instructors can create new classes and update it. Admin can approve or deny classes added by instructors.</p>
                 <p className='text-md  text-black'>✦Student can enroll classes by make payment.</p>
                 <p className='text-xl  text-black'>Technologies</p>
-                <p className='text-md'> Tailwind CSS | Axios | DaisyUI | React Router | React.js | Firebase | Node.js | MongoDB</p>
+                <p className='text-md'> React.js | React Router | Tailwind CSS | Axios | DaisyUI |  Firebase | Google Auth | Node.js | Express.js | MongoDB</p>
                 <div className='flex gap-3'>
                    <Link to="https://music-mentor-b51dd.web.app/"> <button className='btn bg-gray-200 text-black'>Live Site</button></Link>
-                   <Link> <button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Client</button></Link>
-                    <Link><button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Server</button></Link>
+                   <Link to="https://github.com/KKD98/music-mentor-client.git"> <button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Client</button></Link>
+                    <Link to="https://github.com/KKD98/music-mentor-server.git"><button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Server</button></Link>
                 </div>
             </div>
         </div>
