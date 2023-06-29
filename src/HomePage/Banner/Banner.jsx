@@ -1,21 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaDownload} from 'react-icons/fa';
-import resume from '../../../src/assets/Kajol_Kona_Datta.pdf';
+import resume from '../../../src/assets/KajolKonaDattaResume.pdf';
 import { TypeAnimation } from 'react-type-animation';
 
-
 const Banner = () => {
-  const [backgroundGradient, setBackgroundGradient] = useState('from-pink-500');
+  const [backgroundGradient, setBackgroundGradient] = useState('from-pink-500 to-black');
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
     const gradients = [
-      'from-red-500',
-      'from-yellow-500',
-      'from-green-500',
-      'from-blue-500',
-      'from-purple-500',
-      'from-pink-500'
+      'from-gray-500 to-black',
+      'from-yellow-400 to-black',
+      'from-red-300 to-black',
+      'from-sky-300 to-black',
+      'from-purple-300 to-black'
     ];
 
     const changeBackgroundGradient = () => {
@@ -35,23 +33,23 @@ const Banner = () => {
     };
   }, []);
 
-  const backgroundClass = `bg-gradient-to-r ${isTransitioning ? '' : 'to-white'} ${backgroundGradient}`;
+  const backgroundClass = `bg-gradient-to-r to-black ${backgroundGradient}`;
   const iconClass = `text-white hover:scale-150 transition-transform duration-300 ${isTransitioning ? 'pointer-events-none' : ''}`;
 
   return (
-    <div id='home' className={`${backgroundClass} py-16 h-screen`}>
+    <div id='home' className={`${backgroundClass} pt-16 h-screen`}>
       <div className="flex flex-col items-center mt-12 gap-6 py-16">
-        <p className="text-4xl lg:text-6xl font-semibold text-black">KAJOL KONA DATTA</p>
+        <p className="text-4xl lg:text-6xl font-semibold text-white">KAJOL KONA DATTA</p>
         <TypeAnimation
-      sequence={[
-        ' Passionate about changing the world with technology.',
-        1000
-      ]}
-      wrapper="span"
-      speed={20}
-      repeat={Infinity}
-      className="text-md lg:text-xl font-semibold text-center text-black"
-    />
+          sequence={[
+            ' Passionate about changing the world with technology.',
+            1000
+          ]}
+          wrapper="span"
+          speed={20}
+          repeat={Infinity}
+          className="text-md lg:text-xl font-semibold text-center text-white"
+        />
         <div className="flex gap-5 text-3xl mb-2">
           <a href="https://www.linkedin.com/in/kajol-kona-datta/">
             <FaLinkedin className={iconClass} />
@@ -68,7 +66,7 @@ const Banner = () => {
             />
           </a>
         </div>
-        <a href={resume} download="Kajol_Kona_Datta.pdf" className="btn border-none bg-white text-black">
+        <a href={resume} download="Kajol_Kona_Datta.pdf" className="btn btn-outline hover:bg-transparent hover:border-2 hover:border-white text-white">
           <FaDownload />
           Resume
         </a>
