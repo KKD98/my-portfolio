@@ -11,7 +11,7 @@ const HomePage = () => {
     
     return (
         <div>
-        <Banner></Banner>
+            <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
             <Projects></Projects>

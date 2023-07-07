@@ -29,7 +29,7 @@ const Skills = () => {
                         <div className="divider w-16 bg-pink-700 h-1 mb-0"></div>
                         <div className="divider w-16 bg-pink-700 h-1 ml-4"></div>
                     </div>
-            <div className='grid grid-cols-2 lg:grid-cols-7 gap-2 mx-auto w-full mb-4'>
+            <div className='grid grid-cols-2 lg:grid-cols-7 gap-2 md:gap-0 mx-auto w-full mb-4'>
                 {
                     skills.map(skill => <div key={skill.name} data-aos="zoom-out" className='p-8 shadow-slate-600 shadow-md lg:mb-16 
                     w-48 md:w-36 mx-auto'><img src={skill.image} alt="" className='w-full' /> <p className='text-xl text-center font-semibold text-black mt-3'>{skill.name}</p></div>)

@@ -54,9 +54,9 @@ const MusicMentor = () => {
                 <p className='text-xl  text-black'>Technologies</p>
                 <p className='text-md'> React Js | Tailwind CSS | Github Auth | DaisyUI | Google Auth | Firebase | Node.js</p>
                 <div className='flex gap-3'>
-                    <Link to="https://mixed-masala.web.app/"> <button className='btn bg-gray-200 text-black'>Live Site</button></Link>
-                    <Link to="https://github.com/KKD98/mixed-masala-client.git"> <button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Client</button></Link>
-                    <Link to="https://github.com/KKD98/mixed-masala-server.git"><button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Server</button></Link>
+                    <Link to="https://mixed-masala.web.app/"> <button className='btn btn-outline border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-black hover:border-pink-700'>Live Site</button></Link>
+                    <Link to="https://github.com/KKD98/mixed-masala-client.git"> <button className='btn btn-outline border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-black hover:border-pink-700'><FaGithub></FaGithub> Client</button></Link>
+                    <Link to="https://github.com/KKD98/mixed-masala-server.git"><button className='btn btn-outline border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-black hover:border-pink-700'><FaGithub></FaGithub> Server</button></Link>
                 </div>
             </div>
         </div>

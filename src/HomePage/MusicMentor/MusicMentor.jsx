@@ -54,9 +54,9 @@ const MusicMentor = () => {
                 <p className='text-xl  text-black'>Technologies</p>
                 <p className='text-md'> React.js | React Router | Tailwind CSS | Axios | DaisyUI |  Firebase | Google Auth | Node.js | Express.js | MongoDB</p>
                 <div className='flex gap-3'>
-                   <Link to="https://music-mentor-b51dd.web.app/"> <button className='btn bg-gray-200 text-black'>Live Site</button></Link>
-                   <Link to="https://github.com/KKD98/music-mentor-client.git"> <button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Client</button></Link>
-                    <Link to="https://github.com/KKD98/music-mentor-server.git"><button className='btn bg-gray-200 text-black'><FaGithub></FaGithub> Server</button></Link>
+                   <Link to="https://music-mentor-b51dd.web.app/"> <button className='btn btn-outline border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-black hover:border-pink-700'>Live Site</button></Link>
+                   <Link to="https://github.com/KKD98/music-mentor-client.git"> <button className='btn btn-outline border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-black hover:border-pink-700'><FaGithub></FaGithub> Client</button></Link>
+                    <Link to="https://github.com/KKD98/music-mentor-server.git"><button className='btn btn-outline border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-black hover:border-pink-700'><FaGithub></FaGithub> Server</button></Link>
                 </div>
             </div>
         </div>

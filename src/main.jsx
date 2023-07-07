@@ -10,6 +10,7 @@ import HomePage from './HomePage/HomePage/HomePage.jsx';
 import Main from './Main/Main.jsx';
 import Projects from './Projects/Projects.jsx';
 import AboutPage from './AboutPage/AboutPage.jsx';
+import AllProjects from './AllProjects/AllProjects.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: "allprojects",
+    element: <AllProjects></AllProjects>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
