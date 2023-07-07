@@ -10,10 +10,10 @@ const Banner = () => {
   useEffect(() => {
     const gradients = [
       'from-gray-500 to-black',
-      'from-yellow-400 to-black',
-      'from-red-300 to-black',
-      'from-sky-300 to-black',
-      'from-purple-300 to-black'
+      'from-rose-400 to-black',
+      'from-fuchsia-300 to-black',
+      'from-blue-300 to-black',
+      'from-red-300 to-black'
     ];
 
     const changeBackgroundGradient = () => {
