@@ -38,5 +38,21 @@
     {
         "image": "https://i.ibb.co/vZSGTTv/mongodb.png",
         "name": "MongoDb"
+    },
+    {
+        "image": "https://i.ibb.co/HzCdS9F/next-js.png",
+        "name": "Next.js"
+    },
+    {
+        "image": "https://i.ibb.co/t410M90/redux.png",
+        "name": "Redux"
+    },
+    {
+        "image": "https://i.ibb.co/kGfBRtz/mysql.png",
+        "name": "MySQL"
+    },
+    {
+        "image": "https://i.ibb.co/fxCRvt4/typescript.png",
+        "name": "TypeScript"
     }
 ]

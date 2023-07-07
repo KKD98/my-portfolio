@@ -39,7 +39,7 @@ const Banner = () => {
   return (
     <div id='home' className={`${backgroundClass} pt-16 h-screen`}>
       <div className="flex flex-col items-center mt-12 gap-6 py-16">
-        <p className="text-4xl lg:text-6xl font-semibold text-white">KAJOL KONA DATTA</p>
+        <p className="text-4xl lg:text-6xl font-semibold text-black">KAJOL KONA DATTA</p>
         <TypeAnimation
           sequence={[
             ' Passionate about changing the world with technology.',
@@ -48,14 +48,14 @@ const Banner = () => {
           wrapper="span"
           speed={20}
           repeat={Infinity}
-          className="text-md lg:text-xl font-semibold text-center text-white"
+          className="text-md lg:text-xl font-semibold text-center text-black"
         />
         <div className="flex gap-5 text-3xl mb-2">
           <a href="https://www.linkedin.com/in/kajol-kona-datta/">
-            <FaLinkedin className={iconClass} />
+            <FaLinkedin className={`${iconClass} bg-black`} />
           </a>
           <a href="https://github.com/kkd98">
-            <FaGithub className={iconClass} />
+            <FaGithub className={`${iconClass}  bg-black rounded-full`} />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100009853148114&mibextid=LQQJ4d">
             <FaFacebook className={`${iconClass} bg-blue-700 text-white rounded-full border-none`} />
@@ -66,7 +66,7 @@ const Banner = () => {
             />
           </a>
         </div>
-        <a href={resume} download="Kajol_Kona_Datta.pdf" className="btn btn-outline hover:bg-transparent hover:border-2 hover:border-white text-white">
+        <a href={resume} download="Kajol_Kona_Datta.pdf" className="btn btn-outline hover:bg-transparent hover:border-2 hover:border-black text-black">
           <FaDownload />
           Resume
         </a>
